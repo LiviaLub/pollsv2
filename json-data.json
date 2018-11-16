@@ -1,0 +1,32 @@
+
+
+
+{
+  "question" : [
+    {
+      "title" : "Q1. Apple vs. Android?",
+      "choices" : [
+        "Apple: 70%",
+        "Android : 30%"
+      ]
+    },
+    {
+      "title" : "Q2. Preferred movie genre?",
+      "choices" : [
+        "Comedy: 47%",
+        "Horror: 25%",
+        "Drama: 10%",
+        "Action: 18%"
+      ]
+    },
+    {
+      "title" : "Q3. Favorite color?",
+      "choices" : [
+        "Blue: 30%",
+        "Red: 12%",
+        "Green: 36%",
+        "Purple: 22%"
+      ]
+    }
+  ]
+}

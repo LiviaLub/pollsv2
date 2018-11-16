@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Polls</title>
+  <link rel="stylesheet" type="text/css" href="polls.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script type="text/javascript" src="polls.js"></script>
+
+
+</head>
+<body>
+  <div class="show">
+  <h1> Poll </h1>
+  <hr style="width:80%">
+
+  <form>
+  <div class="question">
+  <h3>Q1. Apple vs. Android?</h3>
+  </div>
+
+  <div class="choices">
+  <input type="radio" name="technology" value="apple" > Apple<br>
+      <input type="radio" name="technology" value="android" > Android<br>
+  </div>
+
+
+  <div class="question">
+  <h3>Q2. Preferred movie genre?</h3>
+    </div>
+
+  <div class="choices">
+  <input type="radio" name="movie" value="comedy" > Comedy<br>
+  <input type="radio" name="movie" value="horror" > Horror<br>
+  <input type="radio" name="movie" value="drama" > Drama<br>
+  <input type="radio" name="movie" value="action"> Action<br>
+  </div>
+
+   <div class="question">
+  <h3>Q3. Favorite color?</h3>
+  </div>
+
+  <div class="choices">
+  <input type="radio" name="color" value="blue"> Blue<br>
+  <input type="radio" name="color" value="red"> Red<br>
+  <input type="radio" name="color" value="green"> Green<br>
+  <input type="radio" name="color" value="purple"> Purple<br>
+  </div>
+
+</form>
+ <button class="btn" onclick="loadDoc()">View Results</button>
+</div>
+
+
+<div id="results-container">
+
+</div>
+
+</body>
+</html>

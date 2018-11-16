@@ -1,0 +1,12 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# ignore .idea folder and files #
+############
+.idea/
+.idea/futjakot.iml	
+.idea/misc.xml	
+.idea/modules.xml	
+.idea/workspace.xml
